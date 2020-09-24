@@ -1,0 +1,10 @@
+package com.vmware.spring.cloud.gateway.services;
+
+public class APIGatewayApplication {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

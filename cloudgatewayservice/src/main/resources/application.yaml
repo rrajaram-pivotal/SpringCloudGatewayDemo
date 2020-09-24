@@ -1,0 +1,15 @@
+server:
+  port: 8080
+
+spring:
+  cloud:
+    gateway:
+      routes:
+      - id: employeeModule
+        uri: https://employeeservice-scg.cfapps.io/
+        predicates:
+        - Path=/employee/**
+      - id: customerModule
+        uri: https://customerservice-scg.cfapps.io/
+        predicates:
+        - Path=/customer/**

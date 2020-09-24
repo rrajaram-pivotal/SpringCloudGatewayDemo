@@ -1,0 +1,2 @@
+name: customerservice
+path: target/customerserver-0.0.1-SNAPSHOT.jar

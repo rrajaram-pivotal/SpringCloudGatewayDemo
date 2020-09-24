@@ -1,0 +1,5 @@
+applications:
+  - name: customerservice-scg
+    path: target/customerservice.jar
+    memory: 1G
+    instances: 2

@@ -1,0 +1,7 @@
+---
+applications:
+- name: cloudgateway-scg
+  random-route: true
+  path: target/cloudgatewayservice-0.0.1-SNAPSHOT.jar
+  memory: 1G
+  instances: 2
